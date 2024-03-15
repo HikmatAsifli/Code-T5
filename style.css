@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+/*  Navbar  */
+nav .container {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav {
+  background-color: rgb(44, 62, 80);
+  width: 100%;
+  padding: 15px;
+  font-weight: 600;
+  position: sticky;
+}
+.navbar__nav {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+nav .navbar__brand {
+  font-size: 28px;
+}
+.nav__link:hover {
+  color: #1abc9c;
+}
+
+/*  Header  */
+.head__avatar {
+  width: 200px;
+}
+header .container {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header {
+  padding: 100px 0;
+  background-color: #1abc9c;
+  width: 100%;
+  height: auto;
+}
+.head__heading {
+  color: white;
+  font-size: 60px;
+}
+.head__subheading {
+  color: white;
+}
+header .divider__custom__icon i {
+  color: white;
+  font-size: 24px;
+}
+header .divider__custom__line {
+  height: 5px;
+  width: 100px;
+  background-color: white;
+}
+header .divider__custom {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin: 20px 0px;
+}
+header .head__subheading {
+  font-size: 20px;
+}
+section .divider__custom__icon i {
+  font-size: 24px;
+}
+section .divider__custom__line {
+  height: 5px;
+  width: 100px;
+  background-color: rgb(44, 62, 80);
+}
+section .divider__custom {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin: 30px 0px;
+}
+section .head__subheading {
+  font-size: 20px;
+}
+.page__section__heading {
+  font-size: 40px;
+}
+
+/*  Cards Section  */
+section .container {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section {
+  padding: 80px 0;
+  width: 100%;
+}
+.portfolio {
+  color: rgb(44, 62, 80);
+}
+.cards {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.card__img {
+  width: 320px;
+  border-radius: 10px;
+}
+.card {
+  padding: 30px;
+  width: 320px;
+  height: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card__icon {
+  width: 100%;
+  height: 231.11px;
+  background-color: #34d296;
+  opacity: 0.9;
+  position: absolute;
+  border-radius: 10px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.card:hover .card__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fa-plus {
+  font-size: 60px;
+}
+
+/*  About Section  */
+.about__content {
+  width: 700px;
+  display: flex;
+  gap: 50px;
+}
+.about__content p {
+  width: 50%;
+}
+.about {
+  background-color: #1abc9c;
+  color: white;
+}
+.about .divider__custom__line {
+  height: 5px;
+  width: 100px;
+  background-color: white;
+}
+.about span {
+  display: inline;
+}
+.about a {
+  margin-top: 30px;
+  border: 2px solid white;
+  padding: 14px;
+  border-radius: 7px;
+}
+.about a:hover,
+.about .about__link i:hover {
+  background-color: white;
+  color: black;
+}
+
+/*  Contact  */
+.contactForm {
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+}
+.contactForm input {
+  height: 20px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid rgb(86, 86, 86);
+}
+textarea {
+  width: 100%;
+  height: 70px;
+  border: none;
+  border-bottom: 1px solid rgb(86, 86, 86);
+}
+.contactForm .btn__send {
+  background-color: #34d296;
+  width: 80px;
+  border-radius: 10px;
+  padding: 20px 20px;
+  border: none;
+  color: white;
+}
+
+/*  Footer  */
+.footer {
+  width: 100%;
+}
+footer .container {
+  color: white;
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.footer__top .container {
+  justify-content: space-between;
+}
+.footer__top {
+  padding: 60px 0;
+  background-color: rgb(44, 62, 80);
+  width: 100%;
+}
+.copyright {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  background-color: #1a252f;
+}
+.footer__bootstrap__link {
+  text-align: center;
+}
+.footer__bootstrap__link__item {
+  text-decoration: underline;
+  color: #1abc9c;
+}
+.footer__location {
+  text-align: center;
+}
+.text__upper {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+.footer__links {
+  text-align: center;
+}
+.btn {
+  border-radius: 50%;
+  border: 2px solid white;
+  padding: 10px;
+  margin: 5px;
+}
+.btn:hover {
+  background-color: white;
+  color: black;
+}
+.footer__width {
+  width: 33.33%;
+}
